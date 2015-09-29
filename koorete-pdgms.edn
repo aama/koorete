@@ -1,6 +1,9 @@
 {
 :lang :koorete
 :sgpref "kor"
+:datasource "BinyamSisay2008"
+:geodemoURL "http://www.ethnologue.com/language/kqy"
+:geodemoTXT "Varieties and subdialects of the Omotic language Koorete are spoken in"
 :schemata {
 :case [:Ablative, :Absolutive, :Common, :Dative, :Instrumental, :Nominative, :Possessive]
 	  :conjClass [:Conj1, :Conj2]
