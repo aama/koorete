@@ -5,20 +5,19 @@
 :datasource "BinyamSisay2008"
 :geodemoURL "http://www.ethnologue.com/language/kqy"
 :geodemoTXT "Varieties and subdialects of the Omotic language Koorete are spoken in Ethiopia, 'Southern Nations, Nationalities, and Peoples’ region: Sidama zone, Amaro mountains east of Lake Abaya; Oromia region: about 60 Harro families (200 people) in Lake Abbaya, on Gidicho (Gidicció) island, Harro village'; approx. 157,000 speakers."
-:schemata{:gender [:Common :Fem :Masc],
-          :dimension [:AboveSpeaker :FarDist :FarMid :NearSpeaker :belowSpeaker],
-          :polarity [:Affirmative :Negative],
-          :case [:Ablative :Absolutive :Common :Dative :Instrumental :Nominative :Possessive],
-          :conjClass [:Conj1 :Conj2],
-          :focus [:Declarative :Interrog :NoFocus],
-          :pdgmType [:DervStem :Finite :NA]
-          :pos [:Pronoun :Verb],
-          :person [:Person1 :Person2 :Person3],
-          :derivedStem [:Causative :Inchoative :Passive :Reciprocal],
-          :morphClass [:DervStem],
-          :proClass [:DemPro :Demonstrative :ProInterrog :ProInd :Vocative],
-          :tam [:ImperativeOptative :PastHabitual :PastPerfective :PastPerfective2 :PastProgressive :PresentHabitual :PresentPerfective :PresentProgressive],
-          :number [:Plural :PluralEx :PluralIn :Singular]}
+ :schemata {:case [:Ablative  :Absolutive :Common :Dative :Instrumental :Nominative :Possessive],
+            :conjClass [:Conj1 :Conj2],
+            :derivedStem [:Causative :Inchoative :Passive :Reciprocal],
+            :dimension [:AboveSpeaker :FarDist :FarMid :NearSpeaker :belowSpeaker],
+            :focus [:Declarative :Interrog :NoFocus],
+            :gender [:Common :Fem :Masc],
+            :number [:Plural :PluralEx :PluralIn :Singular],
+            :person [:Person1 :Person2 :Person3],
+            :polarity [:Affirmative :Negative],
+            :pos [:Pronoun :Verb],
+            :proClass [:DemPro :Demonstrative :ProInd :ProInterrog :Vocative],
+            :tam [:ImperativeOptative :PastHabitual :PastPerfective :PastPerfective2 :PastProgressive :PresentHabitual :PresentPerfective :PresentProgressive]
+            :pdgmType [:DervStem :Finite :PRO]}
 :pclass {:pngClass [:person :number :gender],
           :synsemClass [:case :derivedStem :dimension :focus :polarity :pos :proClass :tamb],
           :inflClass [:conjClass],
@@ -631,8 +630,7 @@
     {:label "koorete-VDervStem"
     :note "BinyamSisay2008 #5.3. Template: Base Gloss + Base Shape + Derv Gloss."
     :pdgmType :DervStem
-    :common {:pos :Verb,
-             :morphClass :DervStem}
+    :common {:pos :Verb}
     :terms [[:derivedStem :token :token-note-template],
             [:Causative "eeh-us" "‘like’ + eeh + ‘cause to like’"],
             [:Causative "baar-us" "‘lie down’ + baar + ‘cause to lie down’"],
@@ -1229,9 +1227,8 @@
 :muterms [
     {:label "koorete-PDem"
     :note "BinyamSisay2008 p. 48. Demonstrative pronouns in Koorete are composed of demonstrative adjectives and third-pers pronouns (Hayward 1982;Binyam 2002). According to Binyam (2002),Koorete has five demonstratives. The choice of the demonstratives is determined by the location and nearness of the referred item with respect to the speaker or hearer and its visibility."
-    :pdgmType :NA
-    :common {:morpheme :PRO,
-             :pos :Pronoun,
+    :pdgmType :PRO
+    :common {:pos :Pronoun,
              :proClass :Demonstrative}
     :terms [[:dimension :token],
             [:AboveSpeaker "wo"],
@@ -1244,7 +1241,7 @@
     :note "BinyamSisay2008 p. 48. Third-pers persal pronouns are employed together with the
             above demonstratives in order to form demonstrative pronouns.:This paradigm gives the
             dem element ha nearSpeaker."
-    :pdgmType :NA
+    :pdgmType :PRO
     :common {:person :Person3,
              :lexeme PRO,
              :pos :Pronoun,
@@ -1259,9 +1256,8 @@
     }
     {:label "koorete-PInterrog"
     :note "BinyamSisay2008 p. 50"
-    :pdgmType :NA
-    :common {:morpheme :PRO,
-             :pos :Pronoun,
+    :pdgmType :PRO
+    :common {:pos :Pronoun,
              :proClass :ProInterrog}
     :terms [[:case :token :token-note-gloss],
             [:Ablative "aya-pa" "from where--"],
@@ -1282,9 +1278,8 @@
     }
     {:label "koorete-PProInd"
     :note "BinyamSisay2008 p. 46"
-    :pdgmType :NA
-    :common {:morpheme :PRO,
-             :pos :Pronoun,
+    :pdgmType :PRO
+    :common {:pos :Pronoun,
              :proClass :ProInd}
     :terms [[:case :number :person :gender :token],
             [:Absolutive :Singular :Person1 :Common "taa(tamba)"],
@@ -1330,10 +1325,9 @@
     }
     {:label "koorete-PVocative"
     :note "BinyamSisay2008 Table 10"
-    :pdgmType :NA
+    :pdgmType :PRO
     :common {:person :Person2,
              :pos :Pronoun,
-             :morpheme :PRO,
              :proClass :Vocative}
     :terms [[:number :gender :token],
             [:Singular :Masc "do"],
