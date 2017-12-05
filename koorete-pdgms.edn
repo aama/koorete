@@ -4,11 +4,12 @@
 :sgpref "kor"
 :datasource "BinyamSisay2008"
 :geodemoURL "http://www.ethnologue.com/language/kqy"
-:geodemoTXT "Varieties and subdialects of the Omotic language Koorete are spoken in Ethiopia, 'Southern Nations, Nationalities, and Peoples’ region: Sidama zone, Amaro mountains east of Lake Abaya; Oromia region: about 60 Harro families (200 people) in Lake Abbaya, on Gidicho (Gidicció) island, Harro village'; approx. 157,000 speakers."
- :schemata {:case [:Ablative  :Absolutive :Common :Dative :Instrumental :Nominative :Possessive],
+ :geodemoTXT "Varieties and subdialects of the Omotic language Koorete are spoken in Ethiopia, 'Southern Nations, Nationalities, and Peoples’ region: Sidama zone, Amaro mountains east of Lake Abaya; Oromia region: about 60 Harro families (200 people) in Lake Abbaya, on Gidicho (Gidicció) island, Harro village'; approx. 157,000 speakers."
+ :schemata {:vmorphClass [:DervStem ],
+            :case [:Ablative :Absolutive :Common :Dative :Instrumental :Nominative :Possessive],
             :conjClass [:Conj1 :Conj2],
             :derivedStem [:Causative :Inchoative :Passive :Reciprocal],
-            :dimension [:AboveSpeaker :FarDist :FarMid :NearSpeaker :belowSpeaker],
+            :dimension [:AboveSpeaker :BelowSpeaker :FarDist :FarMid :NearSpeaker],
             :focus [:Declarative :Interrog :NoFocus],
             :gender [:Common :Fem :Masc],
             :number [:Plural :PluralEx :PluralIn :Singular],
@@ -17,7 +18,7 @@
             :pos [:Pronoun :Verb],
             :proClass [:DemPro :Demonstrative :ProInd :ProInterrog :Vocative],
             :tam [:ImperativeOptative :PastHabitual :PastPerfective :PastPerfective2 :PastProgressive :PresentHabitual :PresentPerfective :PresentProgressive]
-            :pdgmType [:DervStem :Finite :PRO]}
+            :pdgmType [:Finite :PRO :VOther]}
 :pclass {:pngClass [:person :number :gender],
           :synsemClass [:case :derivedStem :dimension :focus :polarity :pos :proClass :tamb],
           :inflClass [:conjClass],
@@ -629,8 +630,9 @@
     }
     {:label "koorete-VDervStem"
     :note "BinyamSisay2008 #5.3. Template: Base Gloss + Base Shape + Derv Gloss."
-    :pdgmType :DervStem
-    :common {:pos :Verb}
+    :pdgmType :VOther
+    :common {:vmorphClass :DervStem
+             :pos :Verb}
     :terms [[:derivedStem :token :token-note-template],
             [:Causative "eeh-us" "‘like’ + eeh + ‘cause to like’"],
             [:Causative "baar-us" "‘lie down’ + baar + ‘cause to lie down’"],
@@ -1235,7 +1237,7 @@
             [:FarDist "ye"],
             [:FarMid "se"],
             [:NearSpeaker "ha"],
-            [:belowSpeaker "yede"]]
+            [:BelowSpeaker "yede"]]
     }
     {:label "koorete-PDemPro"
     :note "BinyamSisay2008 p. 48. Third-pers persal pronouns are employed together with the
