@@ -29,7 +29,7 @@
  :termclusters [
                 {:label "koorete-VAffImprtvOpt-bee"
                  :note "BinyamSisay2008 Appendix A,Paradigm 2"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :focus :NoFocus,
                           :conjClass :Conj2,
                           :lexeme :bee,
@@ -44,7 +44,7 @@
                  }
                 {:label "koorete-VAffImprtvOpt-woon"
                  :note "BinyamSisay2008 Appendix A,Paradigm 1"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :focus :NoFocus,
                           :conjClass :Conj1,
                           :lexeme :woon,
@@ -59,7 +59,7 @@
                  }
                 {:label "koorete-VAffPastHabDecl-bee"
                  :note "BinyamSisay2008 Appendix A,Paradigm 2"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :conjClass :Conj2,
                           :focus :Declarative,
                           :lexeme :bee,
@@ -78,7 +78,7 @@
                  }
                 {:label "koorete-VAffPastHabDecl-woon"
                  :note "BinyamSisay2008 Appendix A,Paradigm 1"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :conjClass :Conj1,
                           :focus :Declarative,
                           :lexeme :woon,
@@ -97,7 +97,7 @@
                  }
                 {:label "koorete-VAffPastHabInterrog-bee"
                  :note "BinyamSisay2008 Appendix A,Paradigm 2"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :conjClass :Conj2,
                           :focus :Interrog,
                           :lexeme :bee,
@@ -116,7 +116,7 @@
                  }
                 {:label "koorete-VAffPastHabInterrog-woon"
                  :note "BinyamSisay2008 Appendix A,Paradigm 1"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :conjClass :Conj1,
                           :focus :Interrog,
                           :lexeme :woon,
@@ -135,7 +135,7 @@
                  }
                 {:label "koorete-VAffPastPerfDecl-bee"
                  :note "BinyamSisay2008 Appendix A,Paradigm 2"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :conjClass :Conj2,
                           :focus :Declarative,
                           :lexeme :bee,
@@ -154,7 +154,7 @@
                  }
                 {:label "koorete-VAffPastPerfDecl-woon"
                  :note "BinyamSisay2008 Appendix A,Paradigm 1"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :conjClass :Conj1,
                           :lexeme :woon,
                           :tam :PastPerfective,
@@ -173,7 +173,7 @@
                  }
                 {:label "koorete-VAffPastPerfInterrog-bee"
                  :note "BinyamSisay2008 Appendix A,Paradigm 2"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :conjClass :Conj2,
                           :focus :Interrog,
                           :lexeme :bee,
@@ -192,7 +192,7 @@
                  }
                 {:label "koorete-VAffPastPerfInterrog-woon"
                  :note "BinyamSisay2008 Appendix A,Paradigm 1"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :conjClass :Conj1,
                           :focus :Interrog,
                           :lexeme :woon,
@@ -211,7 +211,7 @@
                  }
                 {:label "koorete-VAffPastPerfectiveDecl-bee"
                  :note "BinyamSisay2008 Appendix A,Paradigm 2"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :conjClass :Conj2,
                           :focus :Declarative,
                           :lexeme :bee,
@@ -230,7 +230,7 @@
                  }
                 {:label "koorete-VAffPastPerfectiveDecl-woon"
                  :note "BinyamSisay2008 Appendix A,Paradigm 1"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :conjClass :Conj1,
                           :focus :Declarative,
                           :lexeme :woon,
@@ -249,7 +249,7 @@
                  }
                 {:label "koorete-VAffPastPerfectiveInterrog-bee"
                  :note "BinyamSisay2008 Appendix A,Paradigm 2"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :conjClass :Conj2,
                           :focus :Interrog,
                           :lexeme :bee,
@@ -268,7 +268,7 @@
                  }
                 {:label "koorete-VAffPastPerfectiveInterrog-woon"
                  :note "BinyamSisay2008 Appendix A,Paradigm 1"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :conjClass :Conj1,
                           :focus :Interrog,
                           :lexeme :woon,
@@ -287,7 +287,7 @@
                  }
                 {:label "koorete-VAffPastPerfectiveNoFoc-bee"
                  :note "BinyamSisay2008 Appendix A,Paradigm 2"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :conjClass :Conj2,
                           :focus :NoFocus,
                           :lexeme :bee,
@@ -306,7 +306,7 @@
                  }
                 {:label "koorete-VAffPastPerfectiveNoFoc-woon"
                  :note "BinyamSisay2008 Appendix A,Paradigm 1"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :conjClass :Conj1,
                           :focus :NoFocus,
                           :lexeme :woon,
@@ -325,7 +325,7 @@
                  }
                 {:label "koorete-VAffPastProgDecl-bee"
                  :note "BinyamSisay2008 Appendix A,Paradigm 2"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :conjClass :Conj2,
                           :focus :Declarative,
                           :lexeme :bee,
@@ -344,7 +344,7 @@
                  }
                 {:label "koorete-VAffPastProgDecl-woon"
                  :note "BinyamSisay2008 Appendix A,Paradigm 1"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :conjClass :Conj1,
                           :focus :Declarative,
                           :lexeme :woon,
@@ -363,7 +363,7 @@
                  }
                 {:label "koorete-VAffPastProgInterrog-bee"
                  :note "BinyamSisay2008 Appendix A,Paradigm 2"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :conjClass :Conj2,
                           :focus :Interrog,
                           :lexeme :bee,
@@ -382,7 +382,7 @@
                  }
                 {:label "koorete-VAffPastProgInterrog-woon"
                  :note "BinyamSisay2008 Appendix A,Paradigm 1"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :conjClass :Conj1,
                           :focus :Interrog,
                           :lexeme :woon,
@@ -401,7 +401,7 @@
                  }
                 {:label "koorete-VAffPresHabDecl-bee"
                  :note "BinyamSisay2008 Appendix A,Paradigm 2"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :conjClass :Conj2,
                           :focus :Declarative,
                           :lexeme :bee,
@@ -420,7 +420,7 @@
                  }
                 {:label "koorete-VAffPresHabDecl-woon"
                  :note "BinyamSisay2008 Appendix A,Paradigm 1"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :conjClass :Conj1,
                           :focus :Declarative,
                           :lexeme :woon,
@@ -439,7 +439,7 @@
                  }
                 {:label "koorete-VAffPresHabInterrog-bee"
                  :note "BinyamSisay2008 Appendix A,Paradigm 2"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :conjClass :Conj2,
                           :focus :Interrog,
                           :lexeme :bee,
@@ -458,7 +458,7 @@
                  }
                 {:label "koorete-VAffPresHabInterrog-woon"
                  :note "BinyamSisay2008 Appendix A,Paradigm 1"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :conjClass :Conj1,
                           :focus :Interrog,
                           :lexeme :woon,
@@ -477,7 +477,7 @@
                  }
                 {:label "koorete-VAffPresPerfDecl-bee"
                  :note "BinyamSisay2008 Appendix A,Paradigm 2"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :conjClass :Conj2,
                           :focus :Declarative,
                           :lexeme :bee,
@@ -496,7 +496,7 @@
                  }
                 {:label "koorete-VAffPresPerfDecl-woon"
                  :note "BinyamSisay2008 Appendix A,Paradigm 1"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :conjClass :Conj1,
                           :focus :Declarative,
                           :lexeme :woon,
@@ -515,7 +515,7 @@
                  }
                 {:label "koorete-VAffPresPerfInterrog-bee"
                  :note "BinyamSisay2008 Appendix A,Paradigm 2"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :conjClass :Conj2,
                           :focus :Interrog,
                           :lexeme :bee,
@@ -534,7 +534,7 @@
                  }
                 {:label "koorete-VAffPresPerfInterrog-woon"
                  :note "BinyamSisay2008 Appendix A,Paradigm 1"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :conjClass :Conj1,
                           :focus :Interrog,
                           :lexeme :woon,
@@ -553,7 +553,7 @@
                  }
                 {:label "koorete-VAffPresProgDecl-bee"
                  :note "BinyamSisay2008 Appendix A,Paradigm 2"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :conjClass :Conj2,
                           :focus :Declarative,
                           :lexeme :bee,
@@ -572,7 +572,7 @@
                  }
                 {:label "koorete-VAffPresProgDecl-woon"
                  :note "BinyamSisay2008 Appendix A,Paradigm 1"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :conjClass :Conj1,
                           :focus :Declarative,
                           :lexeme :woon,
@@ -591,7 +591,7 @@
                  }
                 {:label "koorete-VAffPresProgInterrog-bee"
                  :note "BinyamSisay2008 Appendix A,Paradigm 2"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :conjClass :Conj2,
                           :focus :Interrog,
                           :lexeme :bee,
@@ -610,7 +610,7 @@
                  }
                 {:label "koorete-VAffPresProgInterrog-woon"
                  :note "BinyamSisay2008 Appendix A,Paradigm 1"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :conjClass :Conj1,
                           :focus :Interrog,
                           :lexeme :woon,
@@ -663,7 +663,7 @@
                  }
                 {:label "koorete-VNegImprtvOptInterrog-bee"
                  :note "BinyamSisay2008 Appendix A,Paradigm 2"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :conjClass :Conj2,
                           :focus :Interrog,
                           :lexeme :bee,
@@ -678,7 +678,7 @@
                  }
                 {:label "koorete-VNegImprtvOptInterrog-woon"
                  :note "BinyamSisay2008 Appendix A,Paradigm 1"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :conjClass :Conj1,
                           :focus :Interrog,
                           :lexeme :woon,
@@ -693,7 +693,7 @@
                  }
                 {:label "koorete-VNegPastHabDecl-bee"
                  :note "BinyamSisay2008 Appendix A,Paradigm 2"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :conjClass :Conj2,
                           :focus :Declarative,
                           :lexeme :bee,
@@ -712,7 +712,7 @@
                  }
                 {:label "koorete-VNegPastHabDecl-woon"
                  :note "BinyamSisay2008 Appendix A,Paradigm 1"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :conjClass :Conj1,
                           :focus :Declarative,
                           :lexeme :woon,
@@ -731,7 +731,7 @@
                  }
                 {:label "koorete-VNegPastHabInterrog-bee"
                  :note "BinyamSisay2008 Appendix A,Paradigm 2"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :conjClass :Conj2,
                           :focus :Interrog,
                           :lexeme :bee,
@@ -750,7 +750,7 @@
                  }
                 {:label "koorete-VNegPastHabInterrog-woon"
                  :note "BinyamSisay2008 Appendix A,Paradigm 1"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :conjClass :Conj1,
                           :focus :Interrog,
                           :lexeme :woon,
@@ -769,7 +769,7 @@
                  }
                 {:label "koorete-VNegPastPerfDecl-bee"
                  :note "BinyamSisay2008 Appendix A,Paradigm 2"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :conjClass :Conj2,
                           :focus :Declarative,
                           :lexeme :bee,
@@ -788,7 +788,7 @@
                  }
                 {:label "koorete-VNegPastPerfDecl-woon"
                  :note "BinyamSisay2008 Appendix A,Paradigm 1"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :conjClass :Conj1,
                           :focus :Declarative,
                           :lexeme :woon,
@@ -807,7 +807,7 @@
                  }
                 {:label "koorete-VNegPastPerfInterrog-bee"
                  :note "BinyamSisay2008 Appendix A,Paradigm 2"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :conjClass :Conj2,
                           :focus :Interrog,
                           :lexeme :bee,
@@ -826,7 +826,7 @@
                  }
                 {:label "koorete-VNegPastPerfInterrog-woon"
                  :note "BinyamSisay2008 Appendix A,Paradigm 1"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :conjClass :Conj1,
                           :focus :Interrog,
                           :lexeme :woon,
@@ -845,7 +845,7 @@
                  }
                 {:label "koorete-VNegPastPerfectiveDecl-bee"
                  :note "BinyamSisay2008 Appendix A,Paradigm 2"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :conjClass :Conj2,
                           :focus :Declarative,
                           :lexeme :bee,
@@ -864,7 +864,7 @@
                  }
                 {:label "koorete-VNegPastPerfectiveDecl-woon"
                  :note "BinyamSisay2008 Appendix A,Paradigm 1"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :conjClass :Conj1,
                           :focus :Declarative,
                           :lexeme :woon,
@@ -883,7 +883,7 @@
                  }
                 {:label "koorete-VNegPastPerfectiveInterrog-bee"
                  :note "BinyamSisay2008 Appendix A,Paradigm 2"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :conjClass :Conj2,
                           :focus :Interrog,
                           :lexeme :bee,
@@ -902,7 +902,7 @@
                  }
                 {:label "koorete-VNegPastPerfectiveInterrog-woon"
                  :note "BinyamSisay2008 Appendix A,Paradigm 1"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :conjClass :Conj1,
                           :focus :Interrog,
                           :lexeme :woon,
@@ -921,7 +921,7 @@
                  }
                 {:label "koorete-VNegPastProgDecl-bee"
                  :note "BinyamSisay2008 Appendix A,Paradigm 2"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :conjClass :Conj2,
                           :focus :Declarative,
                           :lexeme :bee,
@@ -940,7 +940,7 @@
                  }
                 {:label "koorete-VNegPastProgDecl-woon"
                  :note "BinyamSisay2008 Appendix A,Paradigm 1"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :conjClass :Conj1,
                           :focus :Declarative,
                           :lexeme :woon,
@@ -959,7 +959,7 @@
                  }
                 {:label "koorete-VNegPastProgInterrog-bee"
                  :note "BinyamSisay2008 Appendix A,Paradigm 2"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :conjClass :Conj2,
                           :focus :Interrog,
                           :lexeme :bee,
@@ -978,7 +978,7 @@
                  }
                 {:label "koorete-VNegPastProgInterrog-woon"
                  :note "BinyamSisay2008 Appendix A,Paradigm 1"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :conjClass :Conj1,
                           :focus :Interrog,
                           :lexeme :woon,
@@ -997,7 +997,7 @@
                  }
                 {:label "koorete-VNegPresHabDecl-bee"
                  :note "BinyamSisay2008 Appendix A,Paradigm 2"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :conjClass :Conj2,
                           :focus :Declarative,
                           :lexeme :bee,
@@ -1016,7 +1016,7 @@
                  }
                 {:label "koorete-VNegPresHabDecl-woon"
                  :note "BinyamSisay2008 Appendix A,Paradigm 1"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :conjClass :Conj1,
                           :focus :Declarative,
                           :lexeme :woon,
@@ -1035,7 +1035,7 @@
                  }
                 {:label "koorete-VNegPresHabInterrog-bee"
                  :note "BinyamSisay2008 Appendix A,Paradigm 2"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :conjClass :Conj2,
                           :focus :Interrog,
                           :lexeme :bee,
@@ -1054,7 +1054,7 @@
                  }
                 {:label "koorete-VNegPresHabInterrog-woon"
                  :note "BinyamSisay2008 Appendix A,Paradigm 1"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :conjClass :Conj1,
                           :focus :Interrog,
                           :lexeme :woon,
@@ -1073,7 +1073,7 @@
                  }
                 {:label "koorete-VNegPresPerfDecl-bee"
                  :note "BinyamSisay2008 Appendix A,Paradigm 2"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :conjClass :Conj2,
                           :focus :Declarative,
                           :lexeme :bee,
@@ -1092,7 +1092,7 @@
                  }
                 {:label "koorete-VNegPresPerfDecl-woon"
                  :note "BinyamSisay2008 Appendix A,Paradigm 1"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :conjClass :Conj1,
                           :focus :Declarative,
                           :lexeme :woon,
@@ -1111,7 +1111,7 @@
                  }
                 {:label "koorete-VNegPresPerfInterrog-bee"
                  :note "BinyamSisay2008 Appendix A,Paradigm 2"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :conjClass :Conj2,
                           :focus :Interrog,
                           :lexeme :bee,
@@ -1130,7 +1130,7 @@
                  }
                 {:label "koorete-VNegPresPerfInterrog-woon"
                  :note "BinyamSisay2008 Appendix A,Paradigm 1"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :conjClass :Conj1,
                           :focus :Interrog,
                           :lexeme :woon,
@@ -1149,7 +1149,7 @@
                  }
                 {:label "koorete-VNegPresProgDecl-bee"
                  :note "BinyamSisay2008 Appendix A,Paradigm 2"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :conjClass :Conj2,
                           :focus :Declarative,
                           :lexeme :bee,
@@ -1168,7 +1168,7 @@
                  }
                 {:label "koorete-VNegPresProgDecl-woon"
                  :note "BinyamSisay2008 Appendix A,Paradigm 1"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :conjClass :Conj1,
                           :focus :Declarative,
                           :lexeme :woon,
@@ -1187,7 +1187,7 @@
                  }
                 {:label "koorete-VNegPresProgInterrog-bee"
                  :note "BinyamSisay2008 Appendix A,Paradigm 2"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :conjClass :Conj2,
                           :focus :Interrog,
                           :lexeme :bee,
@@ -1206,7 +1206,7 @@
                  }
                 {:label "koorete-VNegPresProgInterrog-woon"
                  :note "BinyamSisay2008 Appendix A,Paradigm 1"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :conjClass :Conj1,
                           :focus :Interrog,
                           :lexeme :woon,
