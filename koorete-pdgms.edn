@@ -2,25 +2,25 @@
  :lang :koorete
  :subfamily "Northern Omotic Ometo East"
  :sgpref "kor"
- :datasource "BinyamSisay2008"
+ :datasource "BinyamSisay2008; abbrev. BS08"
  :geodemoURL "http://www.ethnologue.com/language/kqy"
  :geodemoTXT "Varieties and subdialects of the Omotic language Koorete are spoken in Ethiopia, 'Southern Nations, Nationalities, and Peoples’ region: Sidama zone, Amaro mountains east of Lake Abaya; Oromia region: about 60 Harro families (200 people) in Lake Abbaya, on Gidicho (Gidicció) island, Harro village'; approx. 157,000 speakers."
  :schemata {:lexeme [:bee  :woon],
- :case [:Ablative :Absolutive :Common :Dative :Instrumental :Nominative :Possessive],
- :conjClass [:Conj1 :Conj2],
- :derivedStem [:Causative :Inchoative :Passive :Reciprocal],
- :dimension [:AboveSpeaker :FarDist :FarMid :NearSpeaker :belowSpeaker],
- :focus [:Declarative :Interrog :NoFocus],
- :gender [:Common :Fem :Masc],
- :number [:Plural :PluralEx :PluralIn :Singular],
- :person [:Person1 :Person2 :Person3],
- :pmorphClass [:ProMorph],
- :polarity [:Affirmative :Negative],
- :pos [:Pronoun :Verb],
- :proClass [:DemPro :Demonstrative :ProInd :ProInterrog :Vocative],
- :tam [:ImperativeOptative :PastHabitual :PastPerfective :PastPerfective2 :PastProgressive :PresentHabitual :PresentPerfective :PresentProgressive],
- :vmorphClass [:DervStem :Finite]
- }
+            :case [:Ablative :Absolutive :Common :Dative :Instrumental :Nominative :Possessive],
+            :conjClass [:Conj1 :Conj2],
+            :derivedStem [:Causative :Inchoative :Passive :Reciprocal],
+            :dimension [:AboveSpeaker :FarDist :FarMid :NearSpeaker :belowSpeaker],
+            :focus [:Declarative :Interrog :NoFocus],
+            :gender [:Common :Fem :Masc],
+            :number [:Plural :PluralEx :PluralIn :Singular],
+            :person [:Person1 :Person2 :Person3],
+            :pmorphClass [:ProMorph],
+            :polarity [:Affirmative :Negative],
+            :pos [:Pronoun :Verb],
+            :proClass [:DemPro :Demonstrative :ProInd :ProInterrog :Vocative],
+            :tam [:ImperativeOptative :PastHabitual :PastPerfective :PastPerfective2 :PastProgressive :PresentHabitual :PresentPerfective :PresentProgressive],
+            :vmorphClass [:DervStem :Finite]
+            }
  :pclass {:pngClass [:person :number :gender],
           :synsemClass [:case :derivedStem :dimension :focus :polarity :pos :proClass :tamb],
           :inflClass [:conjClass],
@@ -30,7 +30,7 @@
           :woon {:lemma "woon-", :gloss "buy", :conjClass :Conj1, :pos :Verb}}
  :termclusters [
                 {:label "koorete-VAffImprtvOpt-bee"
-                 :note "BinyamSisay2008 Appendix A,Paradigm 2"
+                 :note "BS08AppAp2"
                  :common {:vmorphClass :Finite,
                           :focus :NoFocus,
                           :conjClass :Conj2,
@@ -45,7 +45,7 @@
                          [:Plural :Person3 :Common "bee-y-utt-u-wa-y-e" "bee-y-utt-u-wa-y-e"]]
                  }
                 {:label "koorete-VAffImprtvOpt-woon"
-                 :note "BinyamSisay2008 Appendix A,Paradigm 1"
+                 :note "BS08AppAp1"
                  :common {:vmorphClass :Finite,
                           :focus :NoFocus,
                           :conjClass :Conj1,
@@ -60,7 +60,7 @@
                          [:Plural :Person3 :Common "woom-utt-u-wa-y-e" "woom-utt-u-wa-y-e"]]
                  }
                 {:label "koorete-VAffPastHabDecl-bee"
-                 :note "BinyamSisay2008 Appendix A,Paradigm 2"
+                 :note "BS08AppAp2"
                  :common {:vmorphClass :Finite,
                           :conjClass :Conj2,
                           :focus :Declarative,
@@ -79,7 +79,7 @@
                          [:Plural :Person3 :Common "bee-tta-ko u bee-tsha" "u + bee-tsha + bee-tta-ko"]]
                  }
                 {:label "koorete-VAffPastHabDecl-woon"
-                 :note "BinyamSisay2008 Appendix A,Paradigm 1"
+                 :note "BS08AppAp1"
                  :common {:vmorphClass :Finite,
                           :conjClass :Conj1,
                           :focus :Declarative,
@@ -98,7 +98,7 @@
                          [:Plural :Person3 :Common "woom-a-ko u woon-g-i-tsha" "u + woon-g-i-tsha + woom-a-ko"]]
                  }
                 {:label "koorete-VAffPastHabInterrog-bee"
-                 :note "BinyamSisay2008 Appendix A,Paradigm 2"
+                 :note "BS08AppAp2"
                  :common {:vmorphClass :Finite,
                           :conjClass :Conj2,
                           :focus :Interrog,
@@ -117,7 +117,7 @@
                          [:Plural :Person3 :Common "bee-tta-(a) u bee-tsha" "u + bee-tsha + bee-tta-(a)"]]
                  }
                 {:label "koorete-VAffPastHabInterrog-woon"
-                 :note "BinyamSisay2008 Appendix A,Paradigm 1"
+                 :note "BS08AppAp1"
                  :common {:vmorphClass :Finite,
                           :conjClass :Conj1,
                           :focus :Interrog,
@@ -136,7 +136,7 @@
                          [:Plural :Person3 :Common "woom-a-(a) u woon-g-i-tsha" "u + woon-g-i-tsha + woom-a-(a)"]]
                  }
                 {:label "koorete-VAffPastPerfDecl-bee"
-                 :note "BinyamSisay2008 Appendix A,Paradigm 2"
+                 :note "BS08AppAp2"
                  :common {:vmorphClass :Finite,
                           :conjClass :Conj2,
                           :focus :Declarative,
@@ -155,7 +155,7 @@
                          [:Plural :Person3 :Common "bee-d-i-ko u ye-tsha" "u + ye-tsha + bee-d-i-ko"]]
                  }
                 {:label "koorete-VAffPastPerfDecl-woon"
-                 :note "BinyamSisay2008 Appendix A,Paradigm 1"
+                 :note "BS08AppAp1"
                  :common {:vmorphClass :Finite,
                           :conjClass :Conj1,
                           :lexeme :woon,
@@ -174,7 +174,7 @@
                          [:Plural :Person3 :Common "woon-d-i-ko u ye-tsha" "u + ye-tsha + woon-d-i-ko"]]
                  }
                 {:label "koorete-VAffPastPerfInterrog-bee"
-                 :note "BinyamSisay2008 Appendix A,Paradigm 2"
+                 :note "BS08AppAp2"
                  :common {:vmorphClass :Finite,
                           :conjClass :Conj2,
                           :focus :Interrog,
@@ -193,7 +193,7 @@
                          [:Plural :Person3 :Common "bee-d-i-y-a u ye-tsha" "u + ye-tsha + bee-d-i-y-a"]]
                  }
                 {:label "koorete-VAffPastPerfInterrog-woon"
-                 :note "BinyamSisay2008 Appendix A,Paradigm 1"
+                 :note "BS08AppAp1"
                  :common {:vmorphClass :Finite,
                           :conjClass :Conj1,
                           :focus :Interrog,
@@ -212,7 +212,7 @@
                          [:Plural :Person3 :Common "woon-d-i-y-a u ye-tsha" "u + ye-tsha + woon-d-i-y-a"]]
                  }
                 {:label "koorete-VAffPastPerfectiveDecl-bee"
-                 :note "BinyamSisay2008 Appendix A,Paradigm 2"
+                 :note "BS08AppAp2"
                  :common {:vmorphClass :Finite,
                           :conjClass :Conj2,
                           :focus :Declarative,
@@ -231,7 +231,7 @@
                          [:Plural :Person3 :Common "bee-y-utt-o-s-so (bee-d-o-s-so)" "bee-y-utt-o-s-so (bee-d-o-s-so)"]]
                  }
                 {:label "koorete-VAffPastPerfectiveDecl-woon"
-                 :note "BinyamSisay2008 Appendix A,Paradigm 1"
+                 :note "BS08AppAp1"
                  :common {:vmorphClass :Finite,
                           :conjClass :Conj1,
                           :focus :Declarative,
@@ -250,7 +250,7 @@
                          [:Plural :Person3 :Common "woom-utt-o-s-so (woon-d-o-s-so)" "woom-utt-o-s-so (woon-d-o-s-so)"]]
                  }
                 {:label "koorete-VAffPastPerfectiveInterrog-bee"
-                 :note "BinyamSisay2008 Appendix A,Paradigm 2"
+                 :note "BS08AppAp2"
                  :common {:vmorphClass :Finite,
                           :conjClass :Conj2,
                           :focus :Interrog,
@@ -269,7 +269,7 @@
                          [:Plural :Person3 :Common "bee-y-utt-i-y-a (bee-d-i-y-a)" "bee-y-utt-i-y-a (bee-d-i-y-a)"]]
                  }
                 {:label "koorete-VAffPastPerfectiveInterrog-woon"
-                 :note "BinyamSisay2008 Appendix A,Paradigm 1"
+                 :note "BS08AppAp1"
                  :common {:vmorphClass :Finite,
                           :conjClass :Conj1,
                           :focus :Interrog,
@@ -288,7 +288,7 @@
                          [:Plural :Person3 :Common "woom-utt-i-y-a (woon-d-i-y-a) (woon-d-0)" "woom-utt-i-y-a (woon-d-i-y-a) (woon-d-0)"]]
                  }
                 {:label "koorete-VAffPastPerfectiveNoFoc-bee"
-                 :note "BinyamSisay2008 Appendix A,Paradigm 2"
+                 :note "BS08AppAp2"
                  :common {:vmorphClass :Finite,
                           :conjClass :Conj2,
                           :focus :NoFocus,
@@ -307,7 +307,7 @@
                          [:Plural :Person3 :Common "bee-y-utt-o (bee-d-o)" "bee-y-utt-o (bee-d-o)"]]
                  }
                 {:label "koorete-VAffPastPerfectiveNoFoc-woon"
-                 :note "BinyamSisay2008 Appendix A,Paradigm 1"
+                 :note "BS08AppAp1"
                  :common {:vmorphClass :Finite,
                           :conjClass :Conj1,
                           :focus :NoFocus,
@@ -326,7 +326,7 @@
                          [:Plural :Person3 :Common "woom-utt-o (woon-d-o)" "woom-utt-o (woon-d-o)"]]
                  }
                 {:label "koorete-VAffPastProgDecl-bee"
-                 :note "BinyamSisay2008 Appendix A,Paradigm 2"
+                 :note "BS08AppAp2"
                  :common {:vmorphClass :Finite,
                           :conjClass :Conj2,
                           :focus :Declarative,
@@ -345,7 +345,7 @@
                          [:Plural :Person3 :Common "bee-ya-ko u ye-tsha" "u + ye-tsha + bee-ya-ko"]]
                  }
                 {:label "koorete-VAffPastProgDecl-woon"
-                 :note "BinyamSisay2008 Appendix A,Paradigm 1"
+                 :note "BS08AppAp1"
                  :common {:vmorphClass :Finite,
                           :conjClass :Conj1,
                           :focus :Declarative,
@@ -364,7 +364,7 @@
                          [:Plural :Person3 :Common "woon-g-iya-ko u ye-tsha" "u + ye-tsha + woon-g-iya-ko"]]
                  }
                 {:label "koorete-VAffPastProgInterrog-bee"
-                 :note "BinyamSisay2008 Appendix A,Paradigm 2"
+                 :note "BS08AppAp2"
                  :common {:vmorphClass :Finite,
                           :conjClass :Conj2,
                           :focus :Interrog,
@@ -383,7 +383,7 @@
                          [:Plural :Person3 :Common "bee-ya-(a) u ye-tsha" "u + ye-tsha + bee-ya-(a)"]]
                  }
                 {:label "koorete-VAffPastProgInterrog-woon"
-                 :note "BinyamSisay2008 Appendix A,Paradigm 1"
+                 :note "BS08AppAp1"
                  :common {:vmorphClass :Finite,
                           :conjClass :Conj1,
                           :focus :Interrog,
@@ -402,7 +402,7 @@
                          [:Plural :Person3 :Common "woon-g-iya-(a) u ye-tsha" "u + ye-tsha + woon-g-iya-(a)"]]
                  }
                 {:label "koorete-VAffPresHabDecl-bee"
-                 :note "BinyamSisay2008 Appendix A,Paradigm 2"
+                 :note "BS08AppAp2"
                  :common {:vmorphClass :Finite,
                           :conjClass :Conj2,
                           :focus :Declarative,
@@ -421,7 +421,7 @@
                          [:Plural :Person3 :Common "bee-tta-ko u bee-ne" "u + bee-ne + bee-tta-ko"]]
                  }
                 {:label "koorete-VAffPresHabDecl-woon"
-                 :note "BinyamSisay2008 Appendix A,Paradigm 1"
+                 :note "BS08AppAp1"
                  :common {:vmorphClass :Finite,
                           :conjClass :Conj1,
                           :focus :Declarative,
@@ -440,7 +440,7 @@
                          [:Plural :Person3 :Common "woom-a-ko u woon-g-e" "u + woon-g-e + woom-a-ko"]]
                  }
                 {:label "koorete-VAffPresHabInterrog-bee"
-                 :note "BinyamSisay2008 Appendix A,Paradigm 2"
+                 :note "BS08AppAp2"
                  :common {:vmorphClass :Finite,
                           :conjClass :Conj2,
                           :focus :Interrog,
@@ -459,7 +459,7 @@
                          [:Plural :Person3 :Common "bee-tta-(a) u bee-ne" "u + bee-ne + bee-tta-(a)"]]
                  }
                 {:label "koorete-VAffPresHabInterrog-woon"
-                 :note "BinyamSisay2008 Appendix A,Paradigm 1"
+                 :note "BS08AppAp1"
                  :common {:vmorphClass :Finite,
                           :conjClass :Conj1,
                           :focus :Interrog,
@@ -478,7 +478,7 @@
                          [:Plural :Person3 :Common "woom-a-(a) u woon-g-e" "u + woon-g-e + woom-a-(a)"]]
                  }
                 {:label "koorete-VAffPresPerfDecl-bee"
-                 :note "BinyamSisay2008 Appendix A,Paradigm 2"
+                 :note "BS08AppAp2"
                  :common {:vmorphClass :Finite,
                           :conjClass :Conj2,
                           :focus :Declarative,
@@ -497,7 +497,7 @@
                          [:Plural :Person3 :Common "bee-d-i-ko u yes-e" "u + yes-e + bee-d-i-ko"]]
                  }
                 {:label "koorete-VAffPresPerfDecl-woon"
-                 :note "BinyamSisay2008 Appendix A,Paradigm 1"
+                 :note "BS08AppAp1"
                  :common {:vmorphClass :Finite,
                           :conjClass :Conj1,
                           :focus :Declarative,
@@ -516,7 +516,7 @@
                          [:Plural :Person3 :Common "woon-d-i-ko u yes-e" "u + yes-e + woon-d-i-ko"]]
                  }
                 {:label "koorete-VAffPresPerfInterrog-bee"
-                 :note "BinyamSisay2008 Appendix A,Paradigm 2"
+                 :note "BS08AppAp2"
                  :common {:vmorphClass :Finite,
                           :conjClass :Conj2,
                           :focus :Interrog,
@@ -535,7 +535,7 @@
                          [:Plural :Person3 :Common "bee-d-i-y-a u yes-e" "u + yes-e + bee-d-i-y-a"]]
                  }
                 {:label "koorete-VAffPresPerfInterrog-woon"
-                 :note "BinyamSisay2008 Appendix A,Paradigm 1"
+                 :note "BS08AppAp1"
                  :common {:vmorphClass :Finite,
                           :conjClass :Conj1,
                           :focus :Interrog,
@@ -554,7 +554,7 @@
                          [:Plural :Person3 :Common "woon-d-i-y-a u yes-e" "u + yes-e + woon-d-i-y-a"]]
                  }
                 {:label "koorete-VAffPresProgDecl-bee"
-                 :note "BinyamSisay2008 Appendix A,Paradigm 2"
+                 :note "BS08AppAp2"
                  :common {:vmorphClass :Finite,
                           :conjClass :Conj2,
                           :focus :Declarative,
@@ -573,7 +573,7 @@
                          [:Plural :Person3 :Common "bee-ya-ko u yes-e" "u + yes-e + bee-ya-ko"]]
                  }
                 {:label "koorete-VAffPresProgDecl-woon"
-                 :note "BinyamSisay2008 Appendix A,Paradigm 1"
+                 :note "BS08AppAp1"
                  :common {:vmorphClass :Finite,
                           :conjClass :Conj1,
                           :focus :Declarative,
@@ -592,7 +592,7 @@
                          [:Plural :Person3 :Common "woon-g-iya-ko u yes-e" "u + yes-e + woon-g-iya-ko"]]
                  }
                 {:label "koorete-VAffPresProgInterrog-bee"
-                 :note "BinyamSisay2008 Appendix A,Paradigm 2"
+                 :note "BS08AppAp2"
                  :common {:vmorphClass :Finite,
                           :conjClass :Conj2,
                           :focus :Interrog,
@@ -611,7 +611,7 @@
                          [:Plural :Person3 :Common "bee-ya-(a) u yes-e" "u + yes-e + bee-ya-(a)"]]
                  }
                 {:label "koorete-VAffPresProgInterrog-woon"
-                 :note "BinyamSisay2008 Appendix A,Paradigm 1"
+                 :note "BS08AppAp1"
                  :common {:vmorphClass :Finite,
                           :conjClass :Conj1,
                           :focus :Interrog,
@@ -630,7 +630,7 @@
                          [:Plural :Person3 :Common "woon-g-iya-(a) u yes-e" "u + yes-e + woon-g-iya-(a)"]]
                  }
                 {:label "koorete-VDervStem"
-                 :note "BinyamSisay2008 #5.3. Template: Base Gloss + Base Shape + Derv Gloss."
+                 :note "BS08#5.3 :: Template: Base Gloss + Base Shape + Derv Gloss."
                  :common {:pos :Verb,
                           :vmorphClass :DervStem}
                  :terms [[:derivedStem :token :token-note-template],
@@ -664,7 +664,7 @@
                          [:Reciprocal "os-uttutt" "_NULL + _NULL + _NULL"]]
                  }
                 {:label "koorete-VNegImprtvOptInterrog-bee"
-                 :note "BinyamSisay2008 Appendix A,Paradigm 2"
+                 :note "BS08AppAp2"
                  :common {:vmorphClass :Finite,
                           :conjClass :Conj2,
                           :focus :Interrog,
@@ -679,7 +679,7 @@
                          [:Plural :Person3 :Common "bee-y-utt-o-pp-e" "bee-y-utt-o-pp-e"]]
                  }
                 {:label "koorete-VNegImprtvOptInterrog-woon"
-                 :note "BinyamSisay2008 Appendix A,Paradigm 1"
+                 :note "BS08AppAp1"
                  :common {:vmorphClass :Finite,
                           :conjClass :Conj1,
                           :focus :Interrog,
@@ -694,7 +694,7 @@
                          [:Plural :Person3 :Common "woom-utt-o-pp-e" "woom-utt-o-pp-e"]]
                  }
                 {:label "koorete-VNegPastHabDecl-bee"
-                 :note "BinyamSisay2008 Appendix A,Paradigm 2"
+                 :note "BS08AppAp2"
                  :common {:vmorphClass :Finite,
                           :conjClass :Conj2,
                           :focus :Declarative,
@@ -713,7 +713,7 @@
                          [:Plural :Person3 :Common "bew-wa-d-i-ko u ye-tsha" "u + ye-tsha + bew-wa-d-i-ko"]]
                  }
                 {:label "koorete-VNegPastHabDecl-woon"
-                 :note "BinyamSisay2008 Appendix A,Paradigm 1"
+                 :note "BS08AppAp1"
                  :common {:vmorphClass :Finite,
                           :conjClass :Conj1,
                           :focus :Declarative,
@@ -732,7 +732,7 @@
                          [:Plural :Person3 :Common "woon-g-u-wa-d-i-ko u ye-tsha" "u + ye-tsha + woon-g-u-wa-d-i-ko"]]
                  }
                 {:label "koorete-VNegPastHabInterrog-bee"
-                 :note "BinyamSisay2008 Appendix A,Paradigm 2"
+                 :note "BS08AppAp2"
                  :common {:vmorphClass :Finite,
                           :conjClass :Conj2,
                           :focus :Interrog,
@@ -751,7 +751,7 @@
                          [:Plural :Person3 :Common "bew-wa-d-i-y-a u ye-tsha" "u + ye-tsha + bew-wa-d-i-y-a"]]
                  }
                 {:label "koorete-VNegPastHabInterrog-woon"
-                 :note "BinyamSisay2008 Appendix A,Paradigm 1"
+                 :note "BS08AppAp1"
                  :common {:vmorphClass :Finite,
                           :conjClass :Conj1,
                           :focus :Interrog,
@@ -770,7 +770,7 @@
                          [:Plural :Person3 :Common "woon-g-u-wa-d-i-y-a u ye-tsha" "u + ye-tsha + woon-g-u-wa-d-i-y-a"]]
                  }
                 {:label "koorete-VNegPastPerfDecl-bee"
-                 :note "BinyamSisay2008 Appendix A,Paradigm 2"
+                 :note "BS08AppAp2"
                  :common {:vmorphClass :Finite,
                           :conjClass :Conj2,
                           :focus :Declarative,
@@ -789,7 +789,7 @@
                          [:Plural :Person3 :Common "bee-d-o u ye-tsha" "ye-tsha + u + bee-d-o"]]
                  }
                 {:label "koorete-VNegPastPerfDecl-woon"
-                 :note "BinyamSisay2008 Appendix A,Paradigm 1"
+                 :note "BS08AppAp1"
                  :common {:vmorphClass :Finite,
                           :conjClass :Conj1,
                           :focus :Declarative,
@@ -808,7 +808,7 @@
                          [:Plural :Person3 :Common "woon-d-o u ye-tsha" "ye-tsha + u + woon-d-o"]]
                  }
                 {:label "koorete-VNegPastPerfInterrog-bee"
-                 :note "BinyamSisay2008 Appendix A,Paradigm 2"
+                 :note "BS08AppAp2"
                  :common {:vmorphClass :Finite,
                           :conjClass :Conj2,
                           :focus :Interrog,
@@ -827,7 +827,7 @@
                          [:Plural :Person3 :Common "ye-tsha + u + bee-d-o" "ye-tsha + u + bee-d-o"]]
                  }
                 {:label "koorete-VNegPastPerfInterrog-woon"
-                 :note "BinyamSisay2008 Appendix A,Paradigm 1"
+                 :note "BS08AppAp1"
                  :common {:vmorphClass :Finite,
                           :conjClass :Conj1,
                           :focus :Interrog,
@@ -846,7 +846,7 @@
                          [:Plural :Person3 :Common "woon-d-o u ye-tsha" "ye-tsha + u + woon-d-o"]]
                  }
                 {:label "koorete-VNegPastPerfectiveDecl-bee"
-                 :note "BinyamSisay2008 Appendix A,Paradigm 2"
+                 :note "BS08AppAp2"
                  :common {:vmorphClass :Finite,
                           :conjClass :Conj2,
                           :focus :Declarative,
@@ -865,7 +865,7 @@
                          [:Plural :Person3 :Common "bee-y-utt-o (bee-d-o) baa-s-so" "baa-s-so + bee-y-utt-o (bee-d-o)"]]
                  }
                 {:label "koorete-VNegPastPerfectiveDecl-woon"
-                 :note "BinyamSisay2008 Appendix A,Paradigm 1"
+                 :note "BS08AppAp1"
                  :common {:vmorphClass :Finite,
                           :conjClass :Conj1,
                           :focus :Declarative,
@@ -884,7 +884,7 @@
                          [:Plural :Person3 :Common "woom-utt-o baa-s-so" "baa-s-so + woom-utt-o"]]
                  }
                 {:label "koorete-VNegPastPerfectiveInterrog-bee"
-                 :note "BinyamSisay2008 Appendix A,Paradigm 2"
+                 :note "BS08AppAp2"
                  :common {:vmorphClass :Finite,
                           :conjClass :Conj2,
                           :focus :Interrog,
@@ -903,7 +903,7 @@
                          [:Plural :Person3 :Common "bee-y-utt-o (bee-d-o) baa-y-e" "baa-y-e + bee-y-utt-o (bee-d-o)"]]
                  }
                 {:label "koorete-VNegPastPerfectiveInterrog-woon"
-                 :note "BinyamSisay2008 Appendix A,Paradigm 1"
+                 :note "BS08AppAp1"
                  :common {:vmorphClass :Finite,
                           :conjClass :Conj1,
                           :focus :Interrog,
@@ -922,7 +922,7 @@
                          [:Plural :Person3 :Common "woom-utt-o (woon-d-o) baa-y-e" "baa-y-e + woom-utt-o (woon-d-o)"]]
                  }
                 {:label "koorete-VNegPastProgDecl-bee"
-                 :note "BinyamSisay2008 Appendix A,Paradigm 2"
+                 :note "BS08AppAp2"
                  :common {:vmorphClass :Finite,
                           :conjClass :Conj2,
                           :focus :Declarative,
@@ -941,7 +941,7 @@
                          [:Plural :Person3 :Common "bee-ya u ye-tsha" "ye-tsha + u + bee-ya"]]
                  }
                 {:label "koorete-VNegPastProgDecl-woon"
-                 :note "BinyamSisay2008 Appendix A,Paradigm 1"
+                 :note "BS08AppAp1"
                  :common {:vmorphClass :Finite,
                           :conjClass :Conj1,
                           :focus :Declarative,
@@ -960,7 +960,7 @@
                          [:Plural :Person3 :Common "woon-g-iya u ye-tsha" "ye-tsha + u + woon-g-iya"]]
                  }
                 {:label "koorete-VNegPastProgInterrog-bee"
-                 :note "BinyamSisay2008 Appendix A,Paradigm 2"
+                 :note "BS08AppAp2"
                  :common {:vmorphClass :Finite,
                           :conjClass :Conj2,
                           :focus :Interrog,
@@ -979,7 +979,7 @@
                          [:Plural :Person3 :Common "bee-ya u ye-tsha" "ye-tsha + u + bee-ya"]]
                  }
                 {:label "koorete-VNegPastProgInterrog-woon"
-                 :note "BinyamSisay2008 Appendix A,Paradigm 1"
+                 :note "BS08AppAp1"
                  :common {:vmorphClass :Finite,
                           :conjClass :Conj1,
                           :focus :Interrog,
@@ -998,7 +998,7 @@
                          [:Plural :Person3 :Common "woon-g-iya u ye-tsha" "ye-tsha + u + woon-g-iya"]]
                  }
                 {:label "koorete-VNegPresHabDecl-bee"
-                 :note "BinyamSisay2008 Appendix A,Paradigm 2"
+                 :note "BS08AppAp2"
                  :common {:vmorphClass :Finite,
                           :conjClass :Conj2,
                           :focus :Declarative,
@@ -1017,7 +1017,7 @@
                          [:Plural :Person3 :Common "bee-y-utt-u-waa-s-so (bew-waa-s-so)" "bee-y-utt-u-waa-s-so (bew-waa-s-so)"]]
                  }
                 {:label "koorete-VNegPresHabDecl-woon"
-                 :note "BinyamSisay2008 Appendix A,Paradigm 1"
+                 :note "BS08AppAp1"
                  :common {:vmorphClass :Finite,
                           :conjClass :Conj1,
                           :focus :Declarative,
@@ -1036,7 +1036,7 @@
                          [:Plural :Person3 :Common "woom-utt-u-waa-s-so (woon-g-u-waa-s-so)" "woom-utt-u-waa-s-so (woon-g-u-waa-s-so)"]]
                  }
                 {:label "koorete-VNegPresHabInterrog-bee"
-                 :note "BinyamSisay2008 Appendix A,Paradigm 2"
+                 :note "BS08AppAp2"
                  :common {:vmorphClass :Finite,
                           :conjClass :Conj2,
                           :focus :Interrog,
@@ -1055,7 +1055,7 @@
                          [:Plural :Person3 :Common "bee-y-utt-u-waa-y-e (bew-waa-y-e)" "bee-y-utt-u-waa-y-e (bew-waa-y-e)"]]
                  }
                 {:label "koorete-VNegPresHabInterrog-woon"
-                 :note "BinyamSisay2008 Appendix A,Paradigm 1"
+                 :note "BS08AppAp1"
                  :common {:vmorphClass :Finite,
                           :conjClass :Conj1,
                           :focus :Interrog,
@@ -1074,7 +1074,7 @@
                          [:Plural :Person3 :Common "woom-utt-u-waa-y-e (woon-g-u-waa-y-e)" "woom-utt-u-waa-y-e (woon-g-u-waa-y-e)"]]
                  }
                 {:label "koorete-VNegPresPerfDecl-bee"
-                 :note "BinyamSisay2008 Appendix A,Paradigm 2"
+                 :note "BS08AppAp2"
                  :common {:vmorphClass :Finite,
                           :conjClass :Conj2,
                           :focus :Declarative,
@@ -1093,7 +1093,7 @@
                          [:Plural :Person3 :Common "bee-d-o u yes-e" "yes-e + u + bee-d-o"]]
                  }
                 {:label "koorete-VNegPresPerfDecl-woon"
-                 :note "BinyamSisay2008 Appendix A,Paradigm 1"
+                 :note "BS08AppAp1"
                  :common {:vmorphClass :Finite,
                           :conjClass :Conj1,
                           :focus :Declarative,
@@ -1112,7 +1112,7 @@
                          [:Plural :Person3 :Common "woon-d-o u ba-d-i-ko" "u + woon-d-o + ba-d-i-ko"]]
                  }
                 {:label "koorete-VNegPresPerfInterrog-bee"
-                 :note "BinyamSisay2008 Appendix A,Paradigm 2"
+                 :note "BS08AppAp2"
                  :common {:vmorphClass :Finite,
                           :conjClass :Conj2,
                           :focus :Interrog,
@@ -1131,7 +1131,7 @@
                          [:Plural :Person3 :Common "bee-d-o u yes-e" "yes-e + u + bee-d-o"]]
                  }
                 {:label "koorete-VNegPresPerfInterrog-woon"
-                 :note "BinyamSisay2008 Appendix A,Paradigm 1"
+                 :note "BS08AppAp1"
                  :common {:vmorphClass :Finite,
                           :conjClass :Conj1,
                           :focus :Interrog,
@@ -1150,7 +1150,7 @@
                          [:Plural :Person3 :Common "woon-d-o u yes-e" "yes-e + u + woon-d-o"]]
                  }
                 {:label "koorete-VNegPresProgDecl-bee"
-                 :note "BinyamSisay2008 Appendix A,Paradigm 2"
+                 :note "BS08AppAp2"
                  :common {:vmorphClass :Finite,
                           :conjClass :Conj2,
                           :focus :Declarative,
@@ -1169,7 +1169,7 @@
                          [:Plural :Person3 :Common "bee-y-utt-o baa-s-so" "baa-s-so + bee-y-utt-o"]]
                  }
                 {:label "koorete-VNegPresProgDecl-woon"
-                 :note "BinyamSisay2008 Appendix A,Paradigm 1"
+                 :note "BS08AppAp1"
                  :common {:vmorphClass :Finite,
                           :conjClass :Conj1,
                           :focus :Declarative,
@@ -1188,7 +1188,7 @@
                          [:Plural :Person3 :Common "woom-utt-iya (woon-g-iya) baa-s-so" "baa-s-so + woom-utt-iya (woon-g-iya)"]]
                  }
                 {:label "koorete-VNegPresProgInterrog-bee"
-                 :note "BinyamSisay2008 Appendix A,Paradigm 2"
+                 :note "BS08AppAp2"
                  :common {:vmorphClass :Finite,
                           :conjClass :Conj2,
                           :focus :Interrog,
@@ -1207,7 +1207,7 @@
                          [:Plural :Person3 :Common "bee-y-utt-o (bee-ya) baa-y-e" "baa-y-e + bee-y-utt-o (bee-ya)"]]
                  }
                 {:label "koorete-VNegPresProgInterrog-woon"
-                 :note "BinyamSisay2008 Appendix A,Paradigm 1"
+                 :note "BS08AppAp1"
                  :common {:vmorphClass :Finite,
                           :conjClass :Conj1,
                           :focus :Interrog,
@@ -1226,7 +1226,7 @@
                          [:Plural :Person3 :Common "woom-utt-iya (woon-g-iya) baa-y-e" "baa-y-e + woom-utt-iya (woon-g-iya)"]]
                  }
                 {:label "koorete-PDem"
-                 :note "BinyamSisay2008 p. 48. Demonstrative pronouns in Koorete are composed of demonstrative adjectives and third-pers pronouns (Hayward 1982;Binyam 2002). According to Binyam (2002),Koorete has five demonstratives. The choice of the demonstratives is determined by the location and nearness of the referred item with respect to the speaker or hearer and its visibility."
+                 :note "BS08p.48 :: Demonstrative pronouns in Koorete are composed of demonstrative adjectives and third-pers pronouns (Hayward 1982;Binyam 2002). According to Binyam (2002),Koorete has five demonstratives. The choice of the demonstratives is determined by the location and nearness of the referred item with respect to the speaker or hearer and its visibility."
                  :common {             :pos :Pronoun, :pmorphClass :ProMorph,
                           :proClass :Demonstrative}
                  :terms [[:dimension :token],
@@ -1237,9 +1237,7 @@
                          [:belowSpeaker "yede"]]
                  }
                 {:label "koorete-PDemPro"
-                 :note "BinyamSisay2008 p. 48. Third-pers persal pronouns are employed together with the
-            above demonstratives in order to form demonstrative pronouns.:This paradigm gives the
-            dem element ha nearSpeaker."
+                 :note "BS08p.48 :: Third-pers persal pronouns are employed together with the above demonstratives in order to form demonstrative pronouns.:This paradigm gives the dem element ha nearSpeaker."
                  :common {:person :Person3,
                           :pos :Pronoun, :pmorphClass :ProMorph,
                           :proClass :DemPro}
@@ -1252,7 +1250,7 @@
                          [:Nominative :Plural :Common "ha’us-i"]]
                  }
                 {:label "koorete-PInterrog"
-                 :note "BinyamSisay2008 p. 50"
+                 :note "BS08p.50"
                  :common {             :pos :Pronoun, :pmorphClass :ProMorph,
                           :proClass :ProInterrog}
                  :terms [[:case :token :token-note-gloss],
@@ -1273,7 +1271,7 @@
                          [:Nominative "oon-i" "who"]]
                  }
                 {:label "koorete-PProInd"
-                 :note "BinyamSisay2008 p. 46"
+                 :note "BS08p.46"
                  :common {             :pos :Pronoun, :pmorphClass :ProMorph,
                           :proClass :ProInd}
                  :terms [[:case :number :person :gender :token],
@@ -1319,7 +1317,7 @@
                          [:Possessive :Plural :Person3 :Common "u"]]
                  }
                 {:label "koorete-PVocative"
-                 :note "BinyamSisay2008 Table 10"
+                 :note "BS08Table10"
                  :common {:person :Person2,
                           :pos :Pronoun, :pmorphClass :ProMorph,
                           :proClass :Vocative}
