@@ -1,8 +1,17 @@
 {
   "lang": "koorete",
-  "subfamily": "Northern Omotic Ometo East",
+  "subfamily": "omotic north ometo east",
   "lgpref": "kor",
-  "datasource": "Binyam Sisay Mendisu. 2010. Aspects of Koorete Verb Morphology. (PhD Thesis. University of Oslo. 2008). Cushitic and Omotic Studies 1.  Köln: Rüdiger Köppe Verlag [BS08]",
+  "datasource": "Binyam Sisay Mendisu. 2010. Aspects of Koorete Verb Morphology. (PhD Thesis. University of Oslo. 2008). Cushitic and Omotic Studies 1.  Köln: Rüdiger Köppe Verlag [BS08] Cf. also Binyam Sisay Mendisu, 'Sketch Grammar of an Omotic Language: Koorete' in Lutz Edzard (ed.) Semitic and Afroasiatic: Challenges and Opportunities. Harrasowicz. 2012. pp. 385-398.",
+  "transcription": { 
+    "Consonants": {
+      "general": "AAMA transcription table",
+      "special": [
+        "'dh' = 'ɗ'",
+        "'sh' = 'š' ",
+        "''' = 'glottaalization'"]},
+    "Vowels": "i e a o u; ii ee aa oo uu",
+    "Tone": "'' high; '`' low [note that in fact author does not mark tone in cited Koorete data]}"},
 "datasourceNotes": "",
   "geodemoURL": "http://www.ethnologue.com/language/kqy",
   "geodemoTXT": "Varieties and subdialects of the Omotic language Koorete are spoken in Ethiopia, ZZSouthern Nations, Nationalities, and Peoples’ region: Sidama zone, Amaro mountains east of Lake Abaya; Oromia region: about 60 Harro families (200 people) in Lake Abbaya, on Gidicho (Gidicció) island, Harro villageZZ; approx. 157,000 speakers.",
@@ -1643,7 +1652,7 @@
     ]
   },
   {
-    "label": "kor-Verb:morph-DervStem:",
+    "label": "kor-morphVerb-DervStem",
     "note": "BS08#5.3 :: Template: Base Gloss + Base Shape + Derv Gloss.",
     "common": {
       "pos": "Verb",
